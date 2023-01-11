@@ -1,0 +1,16 @@
+asgiref==3.5.2
+dj-database-url==1.0.0
+Django==4.1.1
+gunicorn==20.1.0
+Pillow==9.2.0
+psycopg2==2.9.4
+sqlparse==0.4.3
+tzdata==2022.3
+boto3==1.24.89
+botocore==1.27.89
+django-storages==1.13.1
+jmespath==1.0.1
+python-dateutil==2.8.2
+s3transfer==0.6.0
+six==1.16.0
+urllib3==1.26.12
