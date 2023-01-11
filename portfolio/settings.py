@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-9c=4+7*_m&8=bjxy=o*-!s=0$!4m1rp&=comdc(s-tp%#18^q(
 # SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = ["shivamsharmaportfolio.herokuapp.com" , "localhost"]
 
@@ -136,11 +136,11 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
-STATICFILES_DIRS = [
+# STATICFILES_DIRS = [
     
-    os.path.join(BASE_DIR, 'static')
+#     os.path.join(BASE_DIR, 'static')
 
-]
+# ]
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
